@@ -1,0 +1,15 @@
+.players {
+	min-height: 100%;
+	background-color: #343a40;
+}
+
+.players-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.player {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

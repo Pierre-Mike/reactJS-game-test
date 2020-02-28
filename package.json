@@ -1,0 +1,24 @@
+{
+	"name": "react-Js1",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "parcel app/app.html --open"
+	},
+	"dependencies": {
+		"animate.css": "^3.7.2",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"bootstrap": "^4.4.1",
+		"parcel": "^1.12.4",
+		"react": "^16.13.0",
+		"react-dom": "^16.13.0",
+		"react-router": "^4.3.1",
+		"react-router-dom": "^4.3.1"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"sass": "^1.26.1"
+	}
+}

@@ -1,0 +1,84 @@
+html,
+body,
+#root,
+.App,
+.fullScreen {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+header {
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 2em;
+	background-color: #343a40;
+	color: #ffc107;
+}
+footer {
+	position: absolute;
+	width: 100%;
+	height: 3em;
+	bottom: 0;
+	background-color: #343a40;
+}
+
+main {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	top: 2em;
+	bottom: 3em;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+footer nav {
+	min-height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.game {
+	min-height: 100%;
+	background-color: #343a40;
+}
+.game71421 {
+	min-height: 100%;
+}
+.game-area {
+	min-height: 100%;
+}
+
+.middle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+.gameList {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #343a40;
+	line-height: 2em;
+	font-size: 2em;
+}
+.gameList .gameRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #ffc107;
+}

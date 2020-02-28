@@ -1,0 +1,10 @@
+.dices {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.diceGame {
+	min-height: 100%;
+}
