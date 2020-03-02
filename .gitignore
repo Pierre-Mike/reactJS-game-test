@@ -5,3 +5,4 @@ dist
 yarn-error.log
 .sonarlint
 .vscode
+.DS_Store
